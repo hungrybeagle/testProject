@@ -9,8 +9,7 @@
     <script>
       var newEl = document.createElement("div");
       newEl.id = "newDiv";
-      newEl.addAttribute("style","border:1px solid black; background-color: #ccc");
-      newEl.html = "This is added html";
+      newEl.innerHTML = "This is added html";
       document.body.appendChild(newEl);
       document.getElementById("newDiv").innerHTML += "added HTML";
     </script>
